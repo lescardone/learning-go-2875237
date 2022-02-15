@@ -8,10 +8,12 @@ import (
 
 func main() {
 
-	/* 	var aString string = "This is Go!"
-	   	fmt.Println(aString)
-	   	fmt.Printf("The variable's type is %T", aString) */
-	// %T	a Go-syntax representation of the type of the value
+	/*
+		var aString string = "This is Go!"
+		fmt.Println(aString)
+		fmt.Printf("The variable's type is %T", aString)
+	*/
+	// %T a Go-syntax representation of the type of the value
 
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Enter text: ")
