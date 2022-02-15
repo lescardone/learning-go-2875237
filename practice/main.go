@@ -15,7 +15,8 @@ func main() {
 	floatSum := f1 + f2 + f3
 	fmt.Println("Float sum:", floatSum)
 
-	roundedSum := math.Round(floatSum)
-	fmt.Println("Rounded sum:", roundedSum)
+	floatSum = math.Round(floatSum*100) / 100
+	// best way to round to 10s place instead of rounding to whole number
+	fmt.Println("The sum is now: ", floatSum)
 
 }
